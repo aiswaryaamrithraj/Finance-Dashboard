@@ -1,4 +1,4 @@
-# FinDash — Finance Dashboard System
+# Zorvyn — Finance Dashboard System
 
 A full-stack finance dashboard with role-based access control, built with **Node.js + Express + MySQL + React**.
 
