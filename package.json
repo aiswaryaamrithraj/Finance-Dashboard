@@ -1,0 +1,14 @@
+{
+  "name": "finance-dashboard",
+  "version": "1.0.0",
+  "description": "Full-stack finance dashboard with role-based access control",
+  "main": "server.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "db:setup": "cd backend && npm run db:setup"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
